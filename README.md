@@ -54,3 +54,13 @@ The Ignore annotation can be used when you want temporarily disable the executio
 
   
   
+</BR><B>Unit assertions</B>
+In this section we will present a number of assertion methods. All those methods are provided by the Assert class which extends the class java.lang.Object and they are useful for writing tests so as to detect failures. In the table below there is a more detailed explanation of the most commonly used assertion methods.
+</BR>void assertEquals([String message], expected value, actual value)</B>: Asserts that two values are equal. Values might be type of int, short, long, byte, char or java.lang.Object. The first argument is an optional String message.
+</BR><B>void assertTrue([String message], boolean condition):</B> Asserts that a condition is true.
+</BR><B>void assertFalse([String message],boolean condition):</B>	Asserts that a condition is false.
+</BR><B>void assertNotNull([String message], java.lang.Object object):</B>	Asserts that an object is not null.
+</BR><B>void assertNull([String message], java.lang.Object object):</B> Asserts that an object is null.
+</BR><B>void assertSame([String message], java.lang.Object expected, java.lang.Object actual):</B> Asserts that the two objects refer to the same object.
+</BR><B>void assertNotSame([String message], java.lang.Object unexpected, java.lang.Object actual):</B> Asserts that the two objects do not refer to the same object.
+</BR><B>void assertArrayEquals([String message], expectedArray, resultArray):</B> Asserts that the array expected and the resulted array are equal. The type of Array might be int, long, short, char, byte or java.lang.Object.
